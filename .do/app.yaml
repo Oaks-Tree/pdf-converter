@@ -1,0 +1,8 @@
+name: pdf-converter
+services:
+- environment_slug: python
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: Oaks-Tree/pdf-converter
+  name: pdf-converter

@@ -1,0 +1,8 @@
+spec:
+  name: pdf-converter
+  services:
+  - environment_slug: python
+    git:
+      branch: main
+      repo_clone_url: https://github.com/Oaks-Tree/pdf-converter.git
+    name: pdf-converter
